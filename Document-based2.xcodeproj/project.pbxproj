@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9825A731C77838500F7AD4A /* DocWinC.m in Sources */ = {isa = PBXBuildFile; fileRef = B9825A721C77838500F7AD4A /* DocWinC.m */; };
 		B9AD99AF1C771044008C29A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AD99AE1C771044008C29A4 /* AppDelegate.m */; };
 		B9AD99B21C771044008C29A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AD99B11C771044008C29A4 /* main.m */; };
 		B9AD99B51C771044008C29A4 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AD99B41C771044008C29A4 /* Document.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9825A711C77838500F7AD4A /* DocWinC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocWinC.h; sourceTree = "<group>"; };
+		B9825A721C77838500F7AD4A /* DocWinC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocWinC.m; sourceTree = "<group>"; };
 		B9AD99AA1C771044008C29A4 /* Document-based2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Document-based2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AD99AD1C771044008C29A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B9AD99AE1C771044008C29A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				B9AD99AE1C771044008C29A4 /* AppDelegate.m */,
 				B9AD99B31C771044008C29A4 /* Document.h */,
 				B9AD99B41C771044008C29A4 /* Document.m */,
+				B9825A711C77838500F7AD4A /* DocWinC.h */,
+				B9825A721C77838500F7AD4A /* DocWinC.m */,
 				B9AD99B61C771044008C29A4 /* Document.xib */,
 				B9AD99B91C771044008C29A4 /* Assets.xcassets */,
 				B9AD99BB1C771044008C29A4 /* MainMenu.xib */,
@@ -152,6 +157,7 @@
 				B9AD99B51C771044008C29A4 /* Document.m in Sources */,
 				B9AD99B21C771044008C29A4 /* main.m in Sources */,
 				B9AD99AF1C771044008C29A4 /* AppDelegate.m in Sources */,
+				B9825A731C77838500F7AD4A /* DocWinC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				B9AD99C31C771044008C29A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -22,4 +22,9 @@
     // Insert code here to tear down your application
 }
 
+- (BOOL) applicationShouldOpenUntitledFile: (NSApplication *) application{
+    //アプリケーション起動時に空のドキュメントを開くかの可否
+    return NO;
+}
+
 @end
